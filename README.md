@@ -10,7 +10,7 @@ Hyprwm (Hyprland, Hyprlock and Hypridle) configurations
 
 > Before getting started, backup your current configuration
 
-Run the command below and (re-)launch waybar
+Run the command below and (re-)launch hyprland
 
 ```bash
 git clone https://github.com/mhkarimi1383/hypr ~/.config/hypr
