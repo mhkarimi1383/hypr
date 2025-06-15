@@ -1,3 +1,6 @@
 [submodule "catppuccin-hyprland"]
 	path = catppuccin-hyprland
 	url = https://github.com/catppuccin/hyprland.git
+[submodule "minecraft-wallpapers"]
+	path = minecraft-wallpapers
+	url = https://github.com/mhkarimi1383/minecraft-wallpapers.git
