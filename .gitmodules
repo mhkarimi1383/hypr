@@ -4,3 +4,6 @@
 [submodule "minecraft-wallpapers"]
 	path = minecraft-wallpapers
 	url = https://github.com/mhkarimi1383/minecraft-wallpapers.git
+[submodule "catppuccin-hyprtoolkit"]
+	path = catppuccin-hyprtoolkit
+	url = https://github.com/SchweGELBin/catppuccin-hyprtoolkit.git
