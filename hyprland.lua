@@ -1,4 +1,4 @@
-local colors      = require("catppuccin-hyprland/themes/catppuccin-mocha")
+local colors      = require("rose-pine-hyprland/dist/rose-pine-moon")
 
 local terminal    = "kitty"
 local fileManager = "yazi"
@@ -63,8 +63,16 @@ hl.config({
 		gaps_out    = 0,
 		border_size = 1,
 		col         = {
-			active_border   = colors.mauve,
-			inactive_border = colors.surface0,
+			active_border = {
+				colors = {
+					theme.rose,
+					theme.pine,
+					theme.love,
+					theme.iris
+				},
+				angle = 90
+			},
+			inactive_border = theme.muted,
 		},
 		layout      = "dwindle"
 	},
