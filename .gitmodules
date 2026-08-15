@@ -4,3 +4,6 @@
 [submodule "rose-pine-hyprland"]
 	path = rose-pine-hyprland
 	url = https://github.com/rose-pine/hyprland
+[submodule "rose-pine-wallpapers"]
+	path = rose-pine-wallpapers
+	url = https://github.com/rose-pine/wallpapers

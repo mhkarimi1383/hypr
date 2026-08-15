@@ -1,4 +1,4 @@
-local colors      = require("rose-pine-hyprland/dist/rose-pine-moon")
+local theme      = require("rose-pine-hyprland/dist/rose-pine-moon")
 
 local terminal    = "kitty"
 local fileManager = "yazi"
@@ -21,7 +21,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("hyprland-per-window-layout")
 	hl.exec_cmd("systemctl --user start xdg-desktop-portal-hyprland.service")
 	hl.exec_cmd("systemctl --user start hyprpolkitagent.service")
-	hl.exec_cmd([[dconf write /org/gnome/desktop/interface/cursor-theme "'catppuccin-mocha-lavender-cursors'"]])
+	hl.exec_cmd([[dconf write /org/gnome/desktop/interface/cursor-theme "'BreezeX-RosePine-Linux'"]])
 	hl.exec_cmd("dconf write /org/gnome/desktop/interface/cursor-size 32")
 end)
 
@@ -32,8 +32,8 @@ hl.env    = {
 	{ "XDG_SESSION_TYPE",          "wayland" },
 	{ "GBM_BACKEND",               "nvidia-drm" },
 	{ "__GLX_VENDOR_LIBRARY_NAME", "nvidia" },
-	{ "HYPRCURSOR_THEME",          "catppuccin-mocha-lavender-cursors" },
-	{ "XCURSOR_THEME",             "catppuccin-mocha-lavender-cursors" },
+	{ "HYPRCURSOR_THEME",          "rose-pine-hyprcursor" },
+	{ "XCURSOR_THEME",             "BreezeX-RosePine-Linux" },
 }
 
 -------------------------------
